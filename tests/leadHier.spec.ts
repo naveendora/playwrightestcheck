@@ -9,6 +9,7 @@ test('test lead from ',async ({page,MyHomePage})=>{
     await MyHomePage.clickHomePageCheck()
    
     //PAGE4
+    //learn to love the world 
     let clicklead=new clickLead(page)
     await clicklead.clickLeadCheck()    
 
